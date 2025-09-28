@@ -25,9 +25,34 @@ body {
 
 .container {
     width: 100%;
-    max-width: 375px;
+    max-width: 320px;
+    border-radius: 20px;
+    padding: 16px 16px 40px;
+    background-color: white;
+    border-radius: 20px;
+    box-shadow: 0 25px 25px 0 rgba(0, 0, 0, 0.04);
+    text-align: center;
 }
 
 .container_img {
     width: 100%;
+    border-radius: 10px;
+    margin-bottom: 24px;
+    
+}
+
+.container_title {
+   font-size: 22px; 
+   color: hsl(218, 44%, 22%);
+   font-weight: 700;
+   width: 256px;
+   margin: 0 auto 16px;
+}
+
+.container_text {
+    font-size: 15px;
+    color: hsl(216, 15%, 48%);
+    font-weight: 400;
+    width: 256px;
+    margin: 0 auto;
 }
